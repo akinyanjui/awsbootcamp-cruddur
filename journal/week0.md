@@ -1,6 +1,3 @@
 # Week 0 — Billing and Architecture
-Created two budgets. A ZeroSpend and CreditUsage budgets with set thresholds at 80%. 
-Created MFA for RootUSer. 
-Watched the security tutorial which basically explained the importance of cloud security. Showing the variation in users, roles and policies and how they all come to play in ensuring the security of an organization. I was compelled to add security features by adding an MFA on both the Root and IAM users. 
-Used lucid charts to create build both a logical and architectural Model.
+Started of by creating 2 budgets, zerospend and creditusage budget on the AWS console. This was a much easier task compared to using the CLI on Gitpod. I experienced a few challenges while runnning the budget json code. I identified the problem was with account_id connection and resorted to resolving it manually. Using Gitpod provided a new and exciting experience, and still trying to learn more of it through repeated excersises. For account security, i added a MFA for the root user. And finally, using the lucid charts to create an architectural model gave me a better understanding of the entire project. Find below a snapshot of the model.
 ![image](https://user-images.githubusercontent.com/65923155/219842856-9b392aa6-1d08-4cf2-b117-e812531c7ce8.png)
